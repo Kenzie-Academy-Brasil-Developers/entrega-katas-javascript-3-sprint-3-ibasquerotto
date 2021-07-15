@@ -1,0 +1,17 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+
+li.listNumber{
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    list-style: none;
+    padding: 10px;
+    border: 2px solid #f0f0f0;
+    background-color: aqua;
+}

@@ -275,7 +275,7 @@ function kata14() {
 
 function kata15() {
     // implemente o código do kata 15 aqui
-    let retorno = []
+  
     let soma = 0
     for (let i = 1; i <= 20; i++){
         soma = soma + i 
@@ -285,10 +285,10 @@ function kata15() {
         li.className = "listNumber"
         
         li.innerHTML = soma;
-        retorno.push(soma)
+  
         show("kata15", li)
-        console.log(retorno)
-        return retorno
+        console.log(soma)
+        return soma
         
       }
       
@@ -297,7 +297,7 @@ function kata15() {
 
 function kata16() {
     // implemente o código do kata 16 aqui
-    let retorno = []
+    
     let soma = 0
     for (let i = 0; i < sampleArray.length; i++){
         soma = soma + sampleArray[i] 
@@ -307,11 +307,11 @@ function kata16() {
         li.className = "listNumber"
         
         li.innerHTML = soma;
-        retorno.push(soma)
+    
         show("kata16", li)
         
-        console.log(retorno)
-        return retorno
+        console.log(soma)
+        return soma
         
       }
       
@@ -319,7 +319,7 @@ function kata16() {
 
 
 function kata17() {
-    let retorno = []
+    
     let menorNumero = sampleArray[0]
     // implemente o código do kata 17 aqui
     for (let i = 1; i < sampleArray.length; i++){
@@ -330,11 +330,11 @@ function kata17() {
         let li = document.createElement("li");
             li.className = "listNumber"
             li.innerHTML = menorNumero;
-            retorno.push(menorNumero)
+            
             show("kata17", li)
 
-            console.log(retorno)
-            return retorno
+            console.log(menorNumero)
+            return menorNumero
         }
       
       
@@ -342,7 +342,7 @@ function kata17() {
 
 
 function kata18() {
-    let retorno = []
+    
     let maiorNumero = sampleArray[0]
     // implemente o código do kata 17 aqui
     for (let i = 1; i < sampleArray.length; i++){
@@ -353,11 +353,11 @@ function kata18() {
         let li = document.createElement("li");
             li.className = "listNumber"
             li.innerHTML = maiorNumero;
-            retorno.push(maiorNumero)
+            
             show("kata18", li)
 
-            console.log(retorno)
-             return retorno
+            console.log(maiorNumero)
+             return maiorNumero
         }
       
       
